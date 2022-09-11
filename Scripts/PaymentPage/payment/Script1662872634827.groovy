@@ -53,7 +53,7 @@ if(donasi == '0') {
 	
 	WebUI.callTestCase(findTestCase('General/bypass'), [:], FailureHandling.STOP_ON_FAILURE)
 	
-//	get stuck because cloudflare :((
+//	got stuck because cloudflare :((
 	WebUI.callTestCase(findTestCase('PaymentMethodPage/paymentMethod'), [:], FailureHandling.STOP_ON_FAILURE)
 	
 }
