@@ -4,4 +4,29 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://kitabisa.com/'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tester'</initValue>
+      <name>fullname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>value for email or phone</description>
+      <initValue>'081122334455'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10000'</initValue>
+      <name>nominalDonasi</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
